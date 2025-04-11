@@ -1,11 +1,407 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DudeShape</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./static/css/reset.css" />
+    <link rel="stylesheet" href="./static/css/style.css" />
+  </head>
+  <body>
+    <header class="container">
+      <div class="header__inner font-sans">
+        <div>
+          <a href="#">
+            <img src="./static/images/logo.svg" alt="logo" />
+          </a>
+        </div>
+        <nav>
+          <a href="#">home</a>
+          <a href="#">about</a>
+          <a href="#">feature</a>
+          <a href="#">contact</a>
+        </nav>
+        <div class="header__info">
+          <button type="button" class="header__search">
+            <img src="./static/images/search.svg" alt="search" />
+          </button>
+          <button type="button" class="header__menu">
+            <img src="./static/images/menu.svg" alt="menu" />
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="info container">
+        <div class="info-block">
+          <div class="info-block__img">
+            <img src="./static/images/info-img.png" alt="info image" />
+          </div>
+          <div class="info-block__inner">
+            <div>
+              <h1 class="info-block__title">
+                We help you make modern furniture
+              </h1>
+              <p class="font-sans">
+                All of our furniture uses the best materials and choices for our
+                customers.All of our furniture uses the best materials
+              </p>
+              <a class="info__link font-sans" href="#">explore more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="partner font-sans">
+        <h2>Trusted by 20,000+ companies</h2>
+        <div class="partner__inner">
+          <img src="./static/images/master-cart.png" alt="Master Cart" />
+          <img src="./static/images/airbnb.png" alt="Airbnb" />
+          <img src="./static/images/uber.png" alt="Uber" />
+          <img src="./static/images/paypal.png" alt="PayPal" />
+          <img src="./static/images/visa.png" alt="Visa" />
+          <img src="./static/images/stripe.png" alt="Stripe" />
+        </div>
+      </section>
+      <section class="about">
+        <div class="about__image">
+          <img src="./static/images/about-img.png" alt="Living Room" />
+        </div>
+        <div class="about__inner">
+          <h2>About Us</h2>
+          <p>
+            All of our furniture uses the best materials and choices for our
+            customers.All of our furniture uses the best materials
+          </p>
+          <div class="about__features">
+            <div class="about__inner-info">
+              <img src="./static/images/about-info-1.svg" alt="about us icon" />
+              <div class="about__inner-feature">
+                <h3>Best Quality</h3>
+                <p class="font-sans">
+                  All of our furniture uses the best materials and choices
+                </p>
+              </div>
+            </div>
+            <div class="about__inner-info">
+              <img src="./static/images/about-info-2.svg" alt="about us icon" />
+              <div class="about__inner-feature">
+                <h3>100% Secure</h3>
+                <p class="font-sans">
+                  All of our furniture uses the best materials and choices
+                </p>
+              </div>
+            </div>
+
+            <div class="about__inner-info">
+              <img src="./static/images/about-info-3.svg" alt="about us icon" />
+              <div class="about__inner-feature">
+                <h3>Free Shpping</h3>
+                <p class="font-sans">
+                  All of our furniture uses the best materials and choices
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="popular container">
+        <div class="popular__info">
+          <div>
+            <h2>Our popular furniture</h2>
+          </div>
+          <div class="popular__slider">
+            <p>
+              All of our furniture uses the best materials and choices for our
+              customers. All of our furniture uses the best materials and
+              choices for our customers.
+            </p>
+            <div>
+              <button>
+                <img src="./static/images/left.png" alt="left" />
+              </button>
+              <button>
+                <img src="./static/images/right.png" alt="right" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="popular__cards">
+          <div class="popular__card">
+            <div class="popular__card-top">
+              <a href="#">
+                <img src="./static/images/card-1.png" alt="Best furniture" />
+              </a>
+            </div>
+            <div class="popular__card-bottom">
+              <div class="popular__card-info">
+                <div class="popular__card-title font-sans">
+                  White Swan Chair
+                </div>
+                <div class="popular__card-price font-sans">$40</div>
+              </div>
+              <div class="popular__card-buttons">
+                <div class="popular__card-buttons-add">
+                  <button>
+                    <img
+                      src="./static/images/like-active.png"
+                      alt="like active"
+                    />
+                  </button>
+                  <button>
+                    <img src="./static/images/share.png" alt="to share" />
+                  </button>
+                </div>
+                <div class="popular__card-buttons-buy">
+                  <button>Buy now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="popular__card">
+            <div class="popular__card-top">
+              <a href="#">
+                <img src="./static/images/card-2.png" alt="Best furniture" />
+              </a>
+            </div>
+            <div class="popular__card-bottom">
+              <div class="popular__card-info">
+                <div class="popular__card-title font-sans">
+                  White Swan Chair
+                </div>
+                <div class="popular__card-price font-sans">$40</div>
+              </div>
+              <div class="popular__card-buttons">
+                <div class="popular__card-buttons-add">
+                  <button>
+                    <img
+                      src="./static/images/like-not-active.png"
+                      alt="to like"
+                    />
+                  </button>
+                  <button>
+                    <img src="./static/images/share.png" alt="to share" />
+                  </button>
+                </div>
+                <div class="popular__card-buttons-buy">
+                  <button>Buy now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="popular__card">
+            <div class="popular__card-top">
+              <a href="#">
+                <img src="./static/images/card-3.png" alt="Best furniture" />
+              </a>
+            </div>
+            <div class="popular__card-bottom">
+              <div class="popular__card-info">
+                <div class="popular__card-title font-sans">
+                  White Swan Chair
+                </div>
+                <div class="popular__card-price font-sans">$40</div>
+              </div>
+              <div class="popular__card-buttons">
+                <div class="popular__card-buttons-add">
+                  <button>
+                    <img
+                      src="./static/images/like-not-active.png"
+                      alt="to like"
+                    />
+                  </button>
+                  <button>
+                    <img src="./static/images/share.png" alt="to share" />
+                  </button>
+                </div>
+                <div class="popular__card-buttons-buy font-sans">
+                  <button>Buy now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="catalog container">
+        <div class="catalog__info">
+          <h2>All Furniture</h2>
+          <div class="catalog__category-buttons font-sans">
+            <button class="category-button active">Shop By Room</button>
+            <button class="category-button">Shop By Category</button>
+            <button class="category-button">Shop By Style</button>
+          </div>
+        </div>
+        <div class="catalog__inner">
+          <div class="catalog__inner-img">
+            <img src="./static/images/catalog-img.png" alt="Catalog image" />
+          </div>
+          <div class="catalog__inner-categories">
+            <div class="catigoriy">
+              <button type="button" class="category-button">
+                <img src="./static/images/category-1.svg" alt="Living Room" />
+                Living Room
+              </button>
+            </div>
+            <div class="catigoriy">
+              <button type="button" class="category-button">
+                <img src="./static/images/category-2.svg" alt="Kitchen" />
+                Kitchen
+              </button>
+            </div>
+            <div class="catigoriy">
+              <button type="button" class="category-button">
+                <img src="./static/images/category-3.svg" alt="Dining Room" />
+                Dining Room
+              </button>
+            </div>
+            <div class="catigoriy">
+              <button type="button" class="category-button active-category">
+                <img src="./static/images/category-4.svg" alt="Office" />
+                Office
+              </button>
+            </div>
+            <div class="catigoriy">
+              <button type="button" class="category-button">
+                <img src="./static/images/category-5.svg" alt="Bed Room" />
+                Bed Room
+              </button>
+            </div>
+            <div class="catigoriy">
+              <button type="button" class="category-button">
+                <img src="./static/images/category-6.svg" alt="Hallway" />
+                Hallway
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonial container">
+        <div class="testimonial__img">
+          <img
+            src="./static/images/testimonal-img.png"
+            alt="Image's customers"
+          />
+        </div>
+        <div class="testimonial__content">
+          <h2 class="testimonial__title">
+            Our customers are very important to us
+          </h2>
+          <p class="testimonial__text font-sans">
+            All of our furniture uses the best materials and choices for our
+            customers. All of our furniture uses the best materials and choices
+            for our customers.
+          </p>
+          <div class="testimonial__review">
+            <img
+              src="./static/images/avatar.png"
+              alt="Mh Jibon"
+              class="testimonial__review-avatar"
+            />
+            <div class="testimonial__review-info">
+              <div class="testimonial__review-author">
+                <p>Mh Jibon</p>
+              </div>
+              <div class="testimonial__review-rating">
+                <img src="./static/images/star.png" alt="star" />
+                <p>4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="subscribe">
+        <div class="subscribe__content container">
+          <h2 class="subscribe__title">
+            Subscribe to get the latest news about us
+          </h2>
+          <p class="subscribe__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod
+            tempor incididunt ut labore at dolore.
+          </p>
+          <form class="subscribe__form">
+            <div class="subscribe__email-input-container">
+              <div class="subscribe__img">
+                <img src="./static/images/email-img.svg" alt="email" />
+              </div>
+              <input
+                type="email"
+                class="email-input"
+                placeholder="Enter your email"
+                required
+              />
+              <div class="subscribe__btn">
+                <button type="submit" class="submit-btn">Register</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__content container">
+        <div class="footer__info">
+          <div class="footer__brand">
+            <h2 class="footer__logo">DudeShape</h2>              
+            <p class="footer__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore.
+            </p>
+            <div class="footer__social">
+              <h3 class="footer__social-title">Follow Us:</h3>
+              <div class="footer__social-icons">
+                <a href="#" class="social-icon">
+                  <img src="./static/images/facebook.svg" alt="facebook" />
+                </a>
+                <a href="#" class="social-icon">
+                  <img src="./static/images/twitter.svg" alt="twitter" />
+                </a>
+                <a href="#" class="social-icon">
+                  <img src="./static/images/instagram.svg" alt="instagram" />
+                </a>
+                <a href="#" class="social-icon">
+                  <img src="./static/images/youtube.svg" alt="youtube" />
+                </a>
+              </div>
+            </div>
+          </div>
     
-</body>
+          <div class="footer__navigation">
+            <div class="footer__nav-column">
+              <h3 class="footer__nav-title">Take a tour</h3>
+              <ul class="footer__nav-links">
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Support</a></li>
+              </ul>
+            </div>
+            <div class="footer__nav-column">
+              <h3 class="footer__nav-title">Our company</h3>
+              <ul class="footer__nav-links">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Media</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+    
+          <div class="footer__subscribe">
+            <h3 class="footer__subscribe-title">Subscribe</h3>
+            <p class="footer__subscribe-text">Subscribe to get the latest news from us</p>
+            <form class="footer__subscribe-form">
+              <input
+                type="email"
+                class="footer__email-input"
+                placeholder="Email Address"
+                required
+              />
+              <button type="submit" class="footer__submit-btn">→</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p>Copyright @ 2021. Crafted with love.</p>
+      </div>
+    </footer>
+  </body>
 </html>
